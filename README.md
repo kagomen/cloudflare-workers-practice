@@ -10,12 +10,14 @@
       wrangler secret put API_KEY
       ```
 
-      2. wrangler.toml に登録する
+      2. ~~wrangler.toml に登録する~~ 【追記】だめ : https://github.com/cloudflare/wrangler-legacy/issues/209#issuecomment-541654484
 
       ```
       [vars]
       API_KEY = "XXXXXXXXXXXX"
       ```
+
+          	- 代わりに`.dev.vars`で管理する（ローカル）
 
   2.  `env.API_KEY`として参照する
 
