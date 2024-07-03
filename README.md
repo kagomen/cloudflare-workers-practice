@@ -49,3 +49,9 @@
   >   - c オブジェクトは、レスポンスを生成するための便利なメソッドを提供します。例えば、JSON データを返す場合には c.json()、HTML を返す場合には c.html()、テキストを返す場合には c.text() などがあります。これらのメソッドは、適切な HTTP レスポンスを生成して返すために使用されます。
   > - その他の機能やデータ:
   >   - Hono フレームワークによって提供される他の機能やデータも、c コンテキストを通じて利用可能です。これには、セキュリティ機能、セッション管理、ログ記録、カスタムミドルウェアの実装などが含まれる場合があります。
+
+# Turnstile
+
+- https://zenn.dev/kameoncloud/articles/cdf8f67bd8ce6f
+- https://wp-kyoto.net/create-turnstile-demo-application-using-hono-and-honojsx/
+- https://qiita.com/khayama/items/524c2b11087a974f46e6
